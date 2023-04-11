@@ -1,0 +1,33 @@
+.left{
+    float: left;
+    background:#141a26
+  
+}
+.table-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .table {
+    border: 1px solid black;
+  }
+
+  #map {
+    height: 10%;
+    width: 10%;
+  }
+ 
+  .flexbox-container {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flexbox-container > div {
+    width: 50%;
+    padding: 10px;
+}
+
+.flexbox-container > div:first-child {
+    margin-right: 20px;
+}
